@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 # views will go here 
 
-def review():
-    pass
+def review(request):
+    return render(request, "reviews/reviews.html")
 
