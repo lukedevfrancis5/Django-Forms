@@ -12,7 +12,7 @@ def review(request):
             return HttpResponseRedirect("/thank-you")
     else: 
         form = ReviewForm()
-         
+
     return render(request, "reviews/reviews.html", {
         "form": form
     })
