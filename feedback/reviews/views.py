@@ -17,5 +17,7 @@ def review(request):
         "form": form
     })
 
+# prints thank you to screen 
+
 def thank_you(request):
     return render(request, "reviews/thank_you.html")
